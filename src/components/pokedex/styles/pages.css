@@ -1,0 +1,15 @@
+.pages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+
+.pages-btn{
+    background-color: red;
+    border: 1px solid black;
+    color: white;
+    border-radius: 5px;
+    padding: 6px;
+    font-size: 25px;
+}

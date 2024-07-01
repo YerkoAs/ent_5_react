@@ -1,0 +1,227 @@
+.pokecard{
+    position: relative;
+    background-color: gray;
+    width: 280px;
+    height: 500px;
+    border: 5px solid;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 0;
+    transition: transform .5s;
+}
+
+.pokecard:hover{
+    transform: scale(1.1);
+    transition: transform .5s;
+}
+
+.pokecard_card{
+    position: absolute;
+    width: 100%;
+    height: 65%;
+    background-color: white;
+    bottom: 0;
+}
+
+.pokecard__name{
+    padding-top: 50px;
+    font-size: 35px;
+    text-align: center;
+}
+
+.pokecard__back{
+    background-color: black;
+    width: 100%;
+    height: 100px;
+}
+
+.pokecard__img{
+    width: 80%;
+    position: absolute;
+    z-index: 100;
+    margin-top: 10px;
+    transition: transform .5s;
+}
+
+.pokecard__img:hover{
+    transform: scale(1.1);
+    transition: transform .5s;
+}
+
+.pokecard__types{
+    margin: 5px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.pokecard__span{
+    color:rgb(163, 158, 158);
+    display: flex;
+    justify-content: center;
+}
+
+.pokecard__hr{
+    width: 90%;
+    margin: 10px 0;
+    color: #877f7f;
+    display: flex;
+    justify-content: center;
+    margin-left: 12px;
+}
+
+.pokecard__stats{
+    padding-bottom: 10px;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    gap: 10px;
+    margin-left: 25px;
+}
+
+.pokecard__stats li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pokecard__stats{
+    font-weight: 900;
+}
+
+/* ----Colors---- */
+.normal{
+    background: linear-gradient(rgb(222, 107, 26),rgb(165, 121, 80),rgb(222, 107, 26),rgb(165, 121, 80)); 
+     border:6px solid rgb(165, 121, 80);
+     color: rgb(165, 121, 80);
+}
+
+.fighting{
+    background: linear-gradient(rgb(131, 55, 23),rgb(165, 103, 80),rgb(131, 55, 23),rgb(165, 103, 80)); 
+     border:6px solid rgb(165, 103, 80);
+     color: rgb(165, 103, 80);
+}
+
+.flying{
+    background: linear-gradient(rgb(23, 131, 122),rgb(148, 217, 211),rgb(23, 131, 122),rgb(148, 217, 211)); 
+     border:6px solid rgb(148, 217, 211);
+     color: rgb(148, 217, 211) ;
+}
+
+.poison{
+    background: linear-gradient(rgb(83, 12, 190), rgb(134, 85, 250), rgb(56, 5, 132), rgb(106, 54, 228));
+    border:6px solid rgb(106, 54, 228) ;
+    color: rgb(106, 54, 228) ;
+}
+
+.ground{
+    background: linear-gradient(rgb(115, 66, 48), rgb(161, 105, 84), rgb(115, 66, 48), rgb(161, 105, 84));
+    border:6px solid rgb(161, 105, 84) ;
+    color: rgb(161, 105, 84) ;
+}
+
+.rock{
+    background: linear-gradient(rgb(74, 66, 64), rgb(136, 133, 132), rgb(74, 66, 64), rgb(136, 133, 132));
+    border:6px solid rgb(136, 133, 132) ;
+    color: rgb(136, 133, 132);
+}
+
+.bug{
+    background: linear-gradient(rgb(0, 98, 0), rgb(8, 151, 60), rgb(0, 98, 0), rgb(8, 151, 60));
+    border:6px solid rgb(8, 151, 60) ;
+    color: rgb(8, 151, 60);
+}
+
+.ghost{
+    background: linear-gradient(rgb(21, 23, 85), rgb(11, 81, 118), rgb(21, 23, 85), rgb(11, 81, 118));
+    border:6px solid rgb(11, 81, 118) ;
+    color: rgb(11, 81, 118);
+}
+
+.steel{
+    background: linear-gradient(rgb(54, 143, 176), rgb(158, 201, 224), rgb(54, 143, 176), rgb(158, 201, 224));
+    border:6px solid rgb(158, 201, 224);
+    color: rgb(158, 201, 224);
+}
+
+.fire{
+    background: linear-gradient(rgb(253, 78, 9), rgb(255, 128, 0), rgb(253, 78, 9), rgb(255, 128, 0));
+    border:6px solid rgb(255, 119, 0) ;
+    color: rgb(255, 119, 0);
+}
+
+.water{
+    background: linear-gradient(rgb(9, 17, 253), rgb(0, 166, 255), rgb(9, 17, 253), rgb(0, 166, 255));
+    border:6px solid rgb(0, 166, 255) ;
+    color: rgb(0, 166, 255) ;;
+}
+
+
+.grass{
+     background: linear-gradient(rgba(30, 203, 255, 0.9),rgba(7, 199, 26, 0.508),rgba(30, 203, 255, 0.733),rgba(7, 199, 142, 0.508)); 
+     border:6px solid rgba(7, 199, 103, 0.508) ;
+     color: rgba(7, 199, 103, 0.508);
+}
+
+.electric{
+    background: linear-gradient(rgb(205, 192, 49), rgb(120, 120, 44), rgb(205, 192, 49), rgb(120, 120, 44));
+    border:6px solid rgb(120, 120, 44) ;
+    color: rgb(120, 120, 44);
+}
+
+.psychic{
+    background: linear-gradient(rgb(122, 233, 42), rgb(156, 192, 90), rgb(122, 233, 42), rgb(156, 192, 90));
+    border:6px solid rgb(156, 192, 90) ;
+    color: rgb(156, 192, 90);
+}
+
+.ice{
+    background: linear-gradient(rgb(128, 201, 243), rgb(149, 181, 199), rgb(128, 201, 243), rgb(149, 181, 199));
+    border:6px solid rgb(149, 181, 199) ;
+    color: rgb(149, 181, 199);
+}
+
+.dragon{
+    background: linear-gradient(rgb(71, 127, 137), rgb(152, 210, 243), rgb(71, 127, 137), rgb(152, 210, 243));
+    border:6px solid rgb(152, 210, 243) ;
+    color: rgb(152, 210, 243);
+}
+
+.dark{
+    background: linear-gradient(rgb(29, 32, 33), rgb(58, 66, 71), rgb(29, 32, 33), rgb(58, 66, 71));
+    border:6px solid rgb(58, 66, 71) ;
+    color: rgb(58, 66, 71);
+}
+
+.fairy{
+    background: linear-gradient(rgb(133, 58, 94), rgb(172, 85, 127), rgb(133, 58, 94), rgb(172, 85, 127));
+    border:6px solid rgb(172, 85, 127) ;
+    color: rgb(172, 85, 127);
+}
+
+.stellar{
+    background: linear-gradient(rgb(210, 101, 188), rgb(237, 171, 203), rgb(210, 101, 188), rgb(237, 171, 203));
+    border:6px solid rgb(237, 171, 203) ;
+    color: rgb(237, 171, 203);
+}
+
+.unknown{
+    background: linear-gradient(rgb(167, 162, 166), rgb(185, 179, 182), rgb(167, 162, 166), rgb(185, 179, 182));
+    border:6px solid rgb(185, 179, 182) ;
+    color: rgb(185, 179, 182);
+}
+
+.pokecard__stats__name{
+    color: rgb(163, 158, 158);
+}
+
+.slot2::before{
+    content: '/';
+    margin: 0 5px;
+}
+.slot2,
+.slot1{
+    color: rgb(65, 63, 63);
+}

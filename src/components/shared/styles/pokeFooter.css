@@ -1,0 +1,41 @@
+.pokefooter__container{
+    width: 100%;
+    height: 20vh;
+    margin-top: 47px;
+    position: static;
+    bottom: 0;
+}
+
+.pokefooter__red{
+    height: 70%;
+    background-color: red;
+}
+
+.pokefooter__black{
+    position: relative;
+    height: 30%;
+    background-color: black;
+}
+
+
+.pokefooter__outercircle{
+    position: absolute;
+    width: 80px;
+    border-radius: 50%;
+    border: 7px solid black;
+    background-color: white;
+    aspect-ratio: 1;
+    bottom: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.pokefooter__innercircle{
+    position: relative;
+    width: 40px;
+    border: 7px solid black;
+    border-radius: 50%;
+    background-color: rgb(61, 59, 59);
+    aspect-ratio: 1;
+    top: 20%;
+    left: 20%;
+}

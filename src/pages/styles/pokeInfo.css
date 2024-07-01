@@ -1,0 +1,421 @@
+.pokeinfo__button{
+    position: fixed;
+    border: 4px solid black;
+    background-color: rgba(197, 11, 11, 0.27);
+    color: white;
+    padding: 10px 25px;
+    transition: background-color .5s;
+    font-weight: 900;
+    border-radius: 10px;
+    z-index: 1001;
+}
+
+.pokeinfo__button:hover{
+    background-color: rgb(255, 18, 18);
+    transition: background-color .5s;
+}
+
+.pokeinfo{
+    width: 75%;
+    margin: 80px auto;
+    background-color: white;
+    padding-bottom: 30px;
+    box-shadow: 0 0 8px grey;
+}
+
+.pokeinfo__info{
+    position: absolute;
+    width: 220px;
+    z-index: 100;
+    right: 50%;
+    top: -80%;
+    transform: translateX(50%);
+}
+
+.pokeinfo__background{
+    width: 99%;
+    height: 120px;
+    position: relative;
+    border: none;
+    margin: 4px auto;
+}
+
+p{
+    width: 35px;
+    font-size: 25px;
+}
+
+.pokeinfo__stats__name{
+    margin: 40px 0 40px 90px;
+}
+
+.pokeinfo__stats{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.pokeinfo__stats-item{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.pokeinfo__stats-item span:nth-child(2) {
+    justify-self: end;
+
+}
+
+.outerbar{
+    overflow: hidden;
+    grid-column: span 2;
+    background-color: rgba(246, 246, 234, 0.906);
+    border-radius: 2px;
+    height: 20px;
+    width: 100%;
+}
+
+.innerbar{
+    background: linear-gradient(90deg,rgb(237, 173, 23), rgb(237, 138, 10));
+    width: calc(100%-20%);
+    height: 100%;
+}
+
+/* -----Colors----- */
+
+.bnormal{
+    background: linear-gradient(rgb(222, 107, 26),rgb(165, 121, 80)); 
+    
+    color: rgb(165, 121, 80);
+}
+
+.bfighting{
+    background: linear-gradient(rgb(131, 55, 23),rgb(165, 103, 80)); 
+     
+     color: rgb(165, 103, 80);
+}
+
+.bflying{
+    background: linear-gradient(rgb(23, 131, 122),rgb(148, 217, 211)); 
+     
+     color: rgb(148, 217, 211) ;
+}
+
+.bpoison{
+    background: linear-gradient(rgb(83, 12, 190), rgb(134, 85, 250));
+    
+    color: rgb(106, 54, 228) ;
+}
+
+.bground{
+    background: linear-gradient(rgb(115, 66, 48), rgb(161, 105, 84));
+    
+    color: rgb(161, 105, 84) ;
+}
+
+.brock{
+    background: linear-gradient(rgb(74, 66, 64), rgb(136, 133, 132));
+    
+    color: rgb(136, 133, 132);
+}
+
+.bbug{
+    background: linear-gradient(rgb(0, 98, 0), rgb(8, 151, 60));
+    
+    color: rgb(8, 151, 60);
+}
+
+.bghost{
+    background: linear-gradient(rgb(21, 23, 85), rgb(11, 81, 118));
+    
+    color: rgb(11, 81, 118);
+}
+
+.bsteel{
+    background: linear-gradient(rgb(54, 143, 176), rgb(158, 201, 224));
+    
+    color: rgb(158, 201, 224);
+}
+
+.bfire{
+    background: linear-gradient(rgb(253, 78, 9), rgb(255, 128, 0));
+    
+    color: rgb(255, 119, 0);
+}
+
+.bwater{
+    background: linear-gradient(rgb(9, 17, 253), rgb(0, 166, 255));
+    
+    color: rgb(0, 166, 255) ;;
+}
+
+
+.bgrass{
+     background: linear-gradient(rgba(30, 203, 255, 0.9),rgba(7, 199, 26, 0.508)); 
+     
+     color: rgba(15, 107, 61, 0.508);
+}
+
+.belectric{
+    background: linear-gradient(rgb(205, 192, 49), rgb(120, 120, 44));
+    
+    color: rgb(120, 120, 44);
+}
+
+.bpsychic{
+    background: linear-gradient(rgb(122, 233, 42), rgb(156, 192, 90));
+    
+    color: rgb(156, 192, 90);
+}
+
+.bice{
+    background: linear-gradient(rgb(128, 201, 243), rgb(149, 181, 199));
+    
+    color: rgb(149, 181, 199);
+}
+
+.bdragon{
+    background: linear-gradient(rgb(71, 127, 137), rgb(152, 210, 243));
+    
+    color: rgb(152, 210, 243);
+}
+
+.bdark{
+    background: linear-gradient(rgb(29, 32, 33), rgb(58, 66, 71));
+    
+    color: rgb(58, 66, 71);
+}
+
+.bfairy{
+    background: linear-gradient(rgb(133, 58, 94), rgb(172, 85, 127));
+    
+    color: rgb(172, 85, 127);
+}
+
+.bstellar{
+    background: linear-gradient(rgb(210, 101, 188), rgb(237, 171, 203));
+    
+    color: rgb(237, 171, 203);
+}
+
+.bunknown{
+    background: linear-gradient(rgb(167, 162, 166), rgb(185, 179, 182));
+    
+    color: rgb(185, 179, 182);
+}
+
+/* -----Colors II----- */
+
+.tnormal{
+    background-color: rgb(222, 107, 26); 
+    
+    color: white;
+}
+
+.tfighting{
+    background-color: rgb(131, 55, 23); 
+     
+     color: white;
+}
+
+.tflying{
+    background-color: rgb(23, 131, 122); 
+     
+     color: white;
+}
+
+.tpoison{
+    background-color: rgb(83, 12, 190);
+    
+    color: white ;
+}
+
+.tground{
+    background-color: rgb(115, 66, 48);
+    
+    color: white;
+}
+
+.trock{
+    background-color: rgb(74, 66, 64);
+    
+    color: white;
+}
+
+.tbug{
+    background-color: rgb(0, 98, 0);
+    
+    color: white;
+}
+
+.tghost{
+    background-color: rgb(21, 23, 85);
+    
+    color: white;
+}
+
+.tsteel{
+    background-color: rgb(54, 143, 176);
+    
+    color: white;
+}
+
+.tfire{
+    background-color: rgb(253, 78, 9);
+    
+    color: white;
+}
+
+.twater{
+    background-color: rgb(9, 17, 253);
+    
+    color: white;
+}
+
+
+.tgrass{
+     background-color: rgba(30, 255, 56, 0.9); 
+     
+     color: white;
+}
+
+.telectric{
+    background-color: rgb(205, 192, 49);
+    
+    color: white;
+}
+
+.tpsychic{
+    background-color: rgb(122, 233, 42);
+    
+    color: white;
+}
+
+.tice{
+    background-color: rgb(128, 201, 243);
+    
+    color: white;
+}
+
+.tdragon{
+    background-color: rgb(71, 127, 137);
+    
+    color: white;
+}
+
+.tdark{
+    background-color: rgb(29, 32, 33);
+    
+    color: white;
+}
+
+.tfairy{
+    background-color: rgb(133, 58, 94);
+    
+    color: white;
+}
+
+.tstellar{
+    background-color: rgb(210, 101, 188);
+    
+    color: white;
+}
+
+.tunknown{
+    background-color: rgb(167, 162, 166);
+    
+    color: white;
+}
+
+.pokeinfo__num, 
+.pokeinfo__name{
+    background: white;
+    text-align: center;
+    margin: 25px auto;
+    font-size: 30px;
+}
+
+.pokeinfo__char{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.pokeinfo__char li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.pokeinfo__char li span:last-child{
+    font-weight: 700;
+}
+
+
+
+.pokeinfo__lists{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.pokeinfo__types,
+.pokeinfo__abilities{
+    text-align: center;
+}
+
+.pokeinfo__types__ul,
+.pokeinfo__abilities__ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-top: 15px;
+}
+
+.pokeinfo__abilities__ul li{
+    width: 104px;
+    height: fit-content;
+    border: 1px solid rgb(195, 192, 192);
+    background-color: whitesmoke;
+}
+
+.pokeinfo__types__ul li{
+    width: 104px;
+    height: 22px;
+}
+
+.pokeinfo__moves__name{
+    padding: 40px;
+}
+
+.pokeinfo__moves{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    
+}
+
+.pokeinfo__moves__ul li{
+    width: fit-content;
+    padding: 10px;
+    height: 37px;
+    border: none;
+    background-color: rgb(216, 216, 228);
+    border-radius: 15px;
+    gap: 40px;
+    margin: 10px 5px;
+    text-align: center;
+    transition: transform .5s;
+}
+
+.pokeinfo__moves__ul li:hover{
+    transform: scale(1.2);
+    transition: transform .5s;
+    cursor: crosshair;
+}

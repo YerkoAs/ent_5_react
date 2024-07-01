@@ -1,0 +1,10 @@
+.pokeselect__select{
+    width: 280px;
+    height: 37px;
+    margin-top: 10px;
+    border: none;
+    margin-left: 0;
+    box-shadow: -1px 3px 5px rgb(149, 141, 141);
+    margin-bottom: 30px;
+
+}

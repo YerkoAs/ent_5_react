@@ -1,0 +1,54 @@
+.homepage__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 476px;
+}
+
+.homepage__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.homepage__title{
+    color: red;
+    font-size: 35px;
+}
+
+.homepage__phrase{
+    width: fit-content;
+    text-align: center;
+}
+
+.homepage__form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.homepage__input{
+    text-align: start;
+    height: 37px;
+    padding-left: 10px;
+    width: 230px;
+    border: none;
+    box-shadow: -1px 3px 5px rgb(149, 141, 141);
+    margin-bottom: 8px;
+    
+}
+
+.homepage__btn{
+    height: 37px;
+    width: 120px;
+    color: white;
+    background-color: rgb(182, 11, 11);
+    border: none;
+    box-shadow: 2px 3px 5px rgb(149, 141, 141);
+    margin-bottom: 8px;
+}
